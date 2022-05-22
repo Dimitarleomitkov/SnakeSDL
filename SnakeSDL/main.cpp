@@ -4,6 +4,7 @@
 #include <iostream>
 #include <vector>
 #include <chrono>
+#include <Windows.h>
 
 using namespace std;
 
@@ -12,6 +13,8 @@ extern bool exitFlag = 1;
 
 int main(int argc, char* argv[])
 {
+    ShowWindow(GetConsoleWindow(), SW_HIDE);
+
     const int FPS = 60;
     const int frameDelay = 1000 / FPS;
     Uint32 frameStart;

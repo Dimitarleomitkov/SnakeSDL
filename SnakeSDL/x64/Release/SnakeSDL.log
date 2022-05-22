@@ -1,16 +1,6 @@
-﻿  Apple.cpp
-D:\Git_Projects\SDLSnake\SnakeSDL_VS\SnakeSDL\SnakeSDL\Apple.cpp(8,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Game.cpp
-  GameObject.cpp
-  Map.cpp
-D:\Git_Projects\SDLSnake\SnakeSDL_VS\SnakeSDL\SnakeSDL\Map.cpp(59,47): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  Snake.cpp
-  Text.cpp
-  TextureManager.cpp
-  main.cpp
+﻿  main.cpp
   Generating code
-  22 of 310 functions ( 7.1%) were compiled, the rest were copied from previous compilation.
-    3 functions were new in current compilation
-    5 functions had inline decision re-evaluated but remain unchanged
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 310 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Finished generating code
   SnakeSDL.vcxproj -> D:\Git_Projects\SDLSnake\SnakeSDL_VS\SnakeSDL\x64\Release\SnakeSDL.exe
